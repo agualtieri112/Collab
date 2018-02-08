@@ -15,14 +15,11 @@
 	float:right;
 	display:inline-block;
 }
-.dropit-settings {
-    list-style: none;
-}
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
-    left: 0; /* dropdown left or right */
+    right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
     min-width: 100px;
@@ -60,4 +57,13 @@
 	text-decoration: none;
 	font-family: "Open sans", Helvetica, Arial, sans-serif;
 	font-weight:100;
+ }
+ .dropit .left-nav .settings {
+     list-style: none;
+ 	padding: 0;
+ 	margin: 15px 0 0;
+ 	float:left;
+ 	display:block;
+	bottom: 100%;
+    top: inherit;
  }
