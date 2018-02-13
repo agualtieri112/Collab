@@ -365,8 +365,8 @@ header nav img{
      top: 15px;
    }
  }
- .left-nav .site-logo {
-   padding-left: 10px;
+ .left-nav .logo img {
+   padding: 10px;
    display:block;
    text-align: center;
  }
